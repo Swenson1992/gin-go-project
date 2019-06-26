@@ -84,7 +84,7 @@ func (ls *StringMap) Value() (driver.Value, error) {
 func main() {
 	gin.SetMode(gin.ReleaseMode)
 	// gin.ForceConsoleColor()
-	// f, _ := os.Create("gin.log")
+	// f, _ := os.Create("log/gin.log")
 	// gin.DefaultWriter = io.MultiWriter(f)
 
 	// router := gin.New()
